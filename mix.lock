@@ -1,0 +1,7 @@
+%{
+  "accessible": {:hex, :accessible, "0.2.1", "09b2808ee9a451e392beab2766bec93daf2944ad31cc130b172fc49bde8edb3c", [:mix], [], "hexpm"},
+  "brook_serializer": {:hex, :brook_serializer, "2.2.0", "b790dfe2ad984f04d18311fa206a74bb55b1c92543b9802ff5b0e91bc005ddda", [:mix], [{:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm"},
+  "jason": {:hex, :jason, "1.1.2", "b03dedea67a99223a2eaf9f1264ce37154564de899fd3d8b9a21b1a6fd64afe7", [:mix], [{:decimal, "~> 1.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm"},
+  "mime": {:hex, :mime, "1.3.1", "30ce04ab3175b6ad0bdce0035cba77bba68b813d523d1aac73d9781b4d193cf8", [:mix], [], "hexpm"},
+  "smart_city": {:hex, :smart_city, "3.14.0", "01d59770135cec06c4fddec90c56f9bd44542018b043bdb8033f7064191fd58a", [:mix], [{:accessible, "~> 0.2.1", [hex: :accessible, repo: "hexpm", optional: false]}, {:brook_serializer, "~> 2.0", [hex: :brook_serializer, repo: "hexpm", optional: false]}, {:jason, "~> 1.1", [hex: :jason, repo: "hexpm", optional: false]}, {:mime, "~> 1.3", [hex: :mime, repo: "hexpm", optional: false]}], "hexpm"},
+}
